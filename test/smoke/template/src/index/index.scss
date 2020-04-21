@@ -1,0 +1,14 @@
+body {
+    div {
+        background-color: red;
+        background-image: url("../imgs/button@3x.png");
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 100px;
+        display: flex;
+        border-radius: 2px;
+    }
+    & {
+        font-size: 30px;
+    }
+}
